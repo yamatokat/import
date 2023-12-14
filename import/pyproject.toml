@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "import"
+version = "0.1.0"
+description = ""
+authors = ["Yamato <katsuya.yamato@toyota.global>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+util = {git = "https://github.com/yamatokat/util.git", branch = "dev" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
